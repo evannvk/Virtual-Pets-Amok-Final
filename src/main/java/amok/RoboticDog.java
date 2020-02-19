@@ -19,7 +19,8 @@ public class RoboticDog extends RoboticPets implements Walkable {
 	@Override
 	public int walkingReducesEnergy(int amount) {
 		
-		return 0;
+		return reduceEnergy();
+		
 	}
 
 }

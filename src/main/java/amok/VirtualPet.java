@@ -1,10 +1,9 @@
 package amok;
 
-import main.OrganicCat;
-import main.OrganicDog;
-import main.RoboticCat;
-import main.RoboticDog;
-import main.VirtualPet;
+import amok.OrganicCat;
+import amok.OrganicDog;
+import amok.RoboticCat;
+import amok.RoboticDog;
 
 public class VirtualPet {
 	private String petName;

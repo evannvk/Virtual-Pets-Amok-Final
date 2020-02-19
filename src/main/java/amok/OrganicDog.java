@@ -18,7 +18,7 @@ public class OrganicDog extends Organic implements Walkable{
 		return waste;
 	}
 	
-	public void cleanCage(int amount) {
+	public void cleanCage() {
 		int clean = 20;
 		if (waste >= clean) {
 			waste -= clean;
@@ -36,7 +36,7 @@ public class OrganicDog extends Organic implements Walkable{
 	@Override
 	public int walkingReducesEnergy(int amount) {
 		
-		return 0;
+		return reduceEnergy();
 	}
 
 	

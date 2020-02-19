@@ -10,7 +10,7 @@ public class VirtualPetAmokApp {
 		Scanner input = new Scanner(System.in);
 		String playerChoice;
 		VirtualPetShelter virtualPetShelter = new VirtualPetShelter();
-		virtualPetShelter.addPet(new VirtualPet("Bob","Ferocious parrot", "Cat" , Robotic));
+		virtualPetShelter.addPet(new VirtualPet("Bob","Ferocious parrot", "Cat" , ));
 		System.out.println("Welcome to the local Virtual Pet Shelter! Here are the pets in the shelter:");
 		printPets(virtualPetShelter);
 			
