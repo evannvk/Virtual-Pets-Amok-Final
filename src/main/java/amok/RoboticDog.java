@@ -1,12 +1,11 @@
 package amok;
 
 import amok.RoboticPets;
-import amok.VirtualPet;
 import amok.Walkable;
 
 public class RoboticDog extends RoboticPets implements Walkable {
 
-	public RoboticDog(String nameChoice, String descriptionChoice, String catOrDog, VirtualPet roboticOrOrganic) {
+	public RoboticDog(String nameChoice, String descriptionChoice, String catOrDog, String roboticOrOrganic) {
 		super(nameChoice, descriptionChoice, catOrDog, roboticOrOrganic);
 		
 	}

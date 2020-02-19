@@ -10,7 +10,7 @@ public class VirtualPetAmokApp {
 		Scanner input = new Scanner(System.in);
 		String playerChoice;
 		VirtualPetShelter virtualPetShelter = new VirtualPetShelter();
-		virtualPetShelter.addPet(new VirtualPet("Bob","Ferocious parrot", "Cat" , ));
+		virtualPetShelter.addPet(new VirtualPet("Bob","Ferocious cat", "Cat" , "robotic"));
 		System.out.println("Welcome to the local Virtual Pet Shelter! Here are the pets in the shelter:");
 		printPets(virtualPetShelter);
 			
@@ -48,7 +48,7 @@ public class VirtualPetAmokApp {
 				System.out.println("Now tell me if its a cat or a dog");
 				String petDNA = input.nextLine();
 				System.out.println("Is it robotic or organic?");
-				VirtualPet petRobotic;
+				String petRobotic = input.nextLine();
 				virtualPetShelter.addPet(new VirtualPet(petName, petDescription, petDNA , petRobotic));
 				virtualPetShelter.tickAll();
 			} else { 

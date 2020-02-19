@@ -6,7 +6,7 @@ public class RoboticPets extends VirtualPet {
 
 	private int rust;
 
-	public RoboticPets(String nameChoice, String descriptionChoice, String catOrDog, VirtualPet roboticOrOrganic) {
+	public RoboticPets(String nameChoice, String descriptionChoice, String catOrDog, String roboticOrOrganic) {
 		super(nameChoice, descriptionChoice, catOrDog, roboticOrOrganic);
 		this.rust = 20;
 	}

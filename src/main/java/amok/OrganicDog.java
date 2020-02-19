@@ -1,7 +1,6 @@
 package amok;
 
 import amok.Organic;
-import amok.VirtualPet;
 import amok.Walkable;
 
 public class OrganicDog extends Organic implements Walkable{
@@ -9,7 +8,7 @@ public class OrganicDog extends Organic implements Walkable{
 
 	private int waste;
 
-	public OrganicDog(String nameChoice, String descriptionChoice, String catOrDog, VirtualPet roboticOrOrganic) {
+	public OrganicDog(String nameChoice, String descriptionChoice, String catOrDog, String roboticOrOrganic) {
 		super(nameChoice, descriptionChoice, catOrDog, roboticOrOrganic);
 		this.waste = 10;
 	}

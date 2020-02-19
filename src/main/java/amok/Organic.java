@@ -7,7 +7,7 @@ public class Organic extends VirtualPet {
 	private int hunger;
 	private int thirst;
 
-	public Organic(String nameChoice, String descriptionChoice, String catOrDog, VirtualPet roboticOrOrganic) {
+	public Organic(String nameChoice, String descriptionChoice, String catOrDog, String roboticOrOrganic) {
 		super(nameChoice, descriptionChoice, catOrDog, roboticOrOrganic);
 		this.hunger = 25;
 		this.thirst = 20;
@@ -15,6 +15,10 @@ public class Organic extends VirtualPet {
 	
 	public int getHunger() {
 		return hunger;
+	}
+	
+	public int getThirst() {
+		return thirst;
 	}
 	
 	public void reduceHunger() {

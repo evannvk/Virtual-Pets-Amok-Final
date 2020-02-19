@@ -1,13 +1,12 @@
 package amok;
 
 import amok.Organic;
-import amok.VirtualPet;
 
 public class OrganicCat extends Organic {
 
 	private int litter;
 
-	public OrganicCat(String nameChoice, String descriptionChoice, String catOrDog, VirtualPet roboticOrLiving) {
+	public OrganicCat(String nameChoice, String descriptionChoice, String catOrDog, String roboticOrLiving) {
 		super(nameChoice, descriptionChoice, catOrDog, roboticOrLiving);
 
 		this.litter = 10;
